@@ -1,0 +1,17 @@
+.card-img{
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+}
+.card2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+    margin-top: 3rem;
+}

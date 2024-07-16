@@ -1,0 +1,91 @@
+.card-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.card-snip {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 280px;
+    max-width: 267.65px;
+    height: 247.65px;
+    box-shadow: 1px 1px 10px gainsboro;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    /* background: #000; */
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+  .card-snip *,
+  .card-snip:before,
+  .card-snip:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-align: center;
+  }
+  
+  .card-snip img {
+    max-width: 100%;
+    height: 290px;
+    object-fit: cover;
+    backface-visibility: hidden;
+    vertical-align:bottom;
+  }
+
+  .card-snip figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-snip figcaption:hover {
+      background: rgba(97, 97, 97, 0.8);
+    opacity: 1;
+  }
+  
+  .card-snip h3 {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    opacity: 0;
+  }
+
+
+  .card-snip:hover h3,
+  .card-snip.hover h3 {
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .card-snip:hover h3,
+  .card-snip.hover h3 {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+
+  @media (max-width: 800px) {
+    .card-main{
+        margin-top: 4rem;
+    }
+    .kashmir-sec{
+        flex-direction: column;
+    }
+
+  }

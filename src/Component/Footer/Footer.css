@@ -1,0 +1,52 @@
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+}
+.li{
+    list-style: none;
+    letter-spacing: 1px;
+}
+.ul{
+    list-style: circle #f35444;
+}
+.f-para{
+    color: gray;
+}
+.comp-logo:hover{
+    transition: color ease .3s;
+    color: #f35444;
+    cursor: pointer;
+}
+.f-input{
+    width: 75%;
+    border-radius: 50px;
+    border: 2px solid gray;
+    background: transparent;
+    padding: 10px;
+    color: white;
+
+}
+.f-input::placeholder{
+    text-align: center;
+}
+.f-input:hover{
+    border: 1px solid #f35444;
+}
+.f-btn{
+    width: 75%;
+    border-radius: 50px;
+    border: 2px solid #f35444;
+    background: transparent;
+    padding: 10px;
+    transition: all .3s ease;
+    color: white;
+
+}
+.f-btn:hover{
+    border: 2px solid #f35444;
+    background: #f35444;
+
+
+}

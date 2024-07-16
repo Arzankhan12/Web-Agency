@@ -1,0 +1,111 @@
+.navbar{
+    width: 100%;
+    background: #000 !important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(69, 68, 68);
+    position: fixed;
+    z-index: 1;
+}
+.colors-set{
+    color: white !important;
+    text-decoration: none;
+}
+.colors-set:hover{
+    color: #f35444 !important;
+    transition: all .3s ease;
+    letter-spacing: 3px;
+}
+.btn-set1{
+    padding: 5px 3vw;
+    border: #f35444 solid 2px;
+    background: #000;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.btn-set1:hover{
+    background: #f35444;
+    transition: all ease .3s;
+}
+
+  @media (max-width:700px) {
+    .navbar{
+        position: relative  ;
+        text-align: center;
+    }
+    .hover-menu {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+      }
+      .menu {
+        position: relative;
+        z-index: 10;
+        top: 1%;
+        right: 0px;
+        /* margin-left: ; */
+      }
+      .hover-button {
+        width: 200px;
+      }
+      .searching input{
+        display: block;
+      }
+    
+  }
+
+  /* HoverMenu.css */
+.hover-menu {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .hover-button {
+    position: relative;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .menu { 
+    width: 150px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: .1rem;
+    display: none;
+  }
+  
+  .hover-button:hover .menu {
+    display: block;
+    background: white;
+    color: #000;
+  }
+  .searching input{
+    display: none;
+  }
+  .menu-lines{
+    transition: all .1s ease;
+   font-size: 12px; 
+  }
+  .menu-lines:hover{
+   border-bottom: #f35444 1px solid; 
+   padding-bottom: 2px;
+  }
+  .menu-lines:nth-child(:last-child):hover{
+   border-bottom: none; 
+  }

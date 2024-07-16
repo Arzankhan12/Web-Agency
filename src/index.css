@@ -1,0 +1,15 @@
+body{
+    scroll-behavior: smooth;
+    transition: all ease-in-out ;
+}
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-track{
+    background: transparent ;
+}
+::-webkit-scrollbar-thumb{
+    background: #f35444 ;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100vw;
+}

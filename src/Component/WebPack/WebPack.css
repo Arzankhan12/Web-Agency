@@ -1,0 +1,55 @@
+
+.Web-pack h1 span{
+    color: #f35444;
+}
+.Web-pack{
+    margin-top: 5rem;
+}
+
+.App-course{
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.black-card{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+}
+
+.App-card{
+    width: 23%;
+    text-align: center;
+    background: url('https://demo26.atiframe.com/wp-content/uploads/2020/03/ecom_price.png');
+    padding: 5rem;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 10px gray;
+    transition: all ease .3s;
+}
+.App-card:hover{
+    scale: 1.1;
+}
+
+.Terms-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width:1200px) {
+    
+.App-card{
+    width: 80%;
+    
+}
+.App-course{
+    flex-direction: column;
+}
+
+}

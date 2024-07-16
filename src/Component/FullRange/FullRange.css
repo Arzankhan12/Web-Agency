@@ -1,0 +1,76 @@
+.FullRange{
+    margin-top: 8rem;
+}
+
+.upper-cards {
+    margin-bottom: 20px;
+  }
+  .lower-cards {
+    margin-top: 20px;
+  }
+  .card1  {
+    margin-bottom: 20px;
+  }
+
+  .section-one h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .color span{
+    color: #f35444;
+  }
+  .s-1-btn{
+    background: transparent;
+    border: 2px solid #f35444;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: all .3s ease;
+  }
+
+  .s-1-btn:hover{
+    background: #f35444;
+    color: white;
+  }
+
+  .modify{
+    font-size: 2rem;
+    padding: 1rem;
+    background: transparent;
+    border-radius: 50px;
+    border: #f35444 2px solid;
+    transition: all .3s ease;
+  }
+  .modify:hover{
+    background: #f35444;
+    color: aliceblue;
+  }
+
+  .arrow{
+    background: transparent;
+    border: none;
+    margin-top: .5rem;
+  }
+  .arrow h6{
+    font-weight: 400;
+  }
+  .arrow h6:hover{
+    font-weight: 500;
+    transition: all .3s ease;
+    color: #f35444;
+  }
+  .card-title a{
+    color: black;
+    list-style: none;
+    text-decoration-line: none;
+  }
+
+  @media (max-width:600px) {
+    br{
+        display: none;
+    }
+  }
+  @media (max-width:780px) {
+    .section-two{
+        margin-top: 5rem;
+    }
+  }

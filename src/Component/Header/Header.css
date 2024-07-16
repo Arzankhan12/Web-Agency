@@ -1,0 +1,102 @@
+.Header{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    background-image: url(//demo26.atiframe.com/wp-content/uploads/2020/03/crea-tive.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:relative;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    justify-content: left;
+}
+.content{
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    position: relative;
+    margin-left: 5vw;
+}
+.heading{
+    font-size: 90px;
+    color: white !important;
+    margin-top: 1vw;
+}
+.heading span{
+    color: #f35444 !important;
+}
+.gap{
+    color: gray;
+}
+.head-btn{
+    margin-top: 3rem;
+}
+
+.images{
+    left: 60vw;
+    bottom: 0;
+    position: absolute;
+}
+.images img{
+    width: 100%;
+    
+}
+@media (max-width:1000px) {
+    .Header{
+
+        height: auto;
+        width: 100%;
+
+    }
+    .images{
+        all: unset;
+        width: 50%;
+        height: auto;
+       display: flex;display: block;
+       justify-content: center;
+       justify-content: center;
+       align-items: center;
+        position: relative;
+ 
+    }
+    .images img{
+       width: 100%;
+       height: auto;
+       margin-top: 5rem;
+ 
+    }
+    .wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+        align-items: center;
+        justify-content: left;
+    }
+
+}
+@media (max-width:500px) {
+    .heading{
+        font-size: 50px;
+        color: white !important;
+        margin-top: 1vw;
+    }
+    .images{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width:290px) {
+    .heading{
+        font-size: 30px;
+        color: white !important;
+        margin-top: 1vw;
+    }
+}

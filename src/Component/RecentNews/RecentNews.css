@@ -1,0 +1,54 @@
+    .recent-head span{
+        color: #f35444;
+    }
+    .Recent-news-head{
+        width: 100%;
+        height: auto;
+        margin-top: 5rem;
+    }
+    .Recent-img{
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: all .3s ease;
+        margin-top: 3rem;
+    }
+    .fig-zoom{
+        scale: 1;
+        overflow: hidden;
+    }
+    .fig-zoom img:hover{
+        scale: 1.2 ;
+    }
+    .rec-color:hover{
+        transition: color ease .3s;
+        cursor: pointer;
+        color: #f35444;
+    }
+    .text-cont{
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+    }
+    .text-cont:hover{
+        color: #f35444;
+        cursor: pointer;
+    }
+      
+      .animated-dot {
+        width: 20px;
+        height: 6px;
+        max-height: 100%;
+        background-color: #f35444; /* Adjust background color */
+        border-radius: 10px;
+        transition: all ease .3s;
+
+
+      }
+      
+      .animated-dot:hover {
+       width: 50px; /* Scale up on hover */
+      }

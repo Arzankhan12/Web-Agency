@@ -1,0 +1,26 @@
+.Counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background: url(https://demo26.atiframe.com/wp-content/uploads/2020/03/Curves-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 4rem;
+}
+.counter-color{
+    color: #f35444;
+}
+.count{
+ font-size: 100px;   
+}
+
+@media (max-width:650px) {
+    .counter{
+        background-size: cover;
+        object-fit: cover;
+    }
+}

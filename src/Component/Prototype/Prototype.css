@@ -1,0 +1,85 @@
+
+.Prototype{
+    width: 100%;
+    height: auto;
+    background: #000;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 3rem 0rem;
+    margin-top: 5rem;
+}
+::placeholder{
+    color: white;
+}
+
+.prototype-right{
+    width: 40% ;
+    color: white !important;
+    padding: 1rem;
+}
+.prototype-left{
+    width: 50%;
+    height: auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+.prototype-left iframe{
+    position: absolute;
+    width: 90%;
+    height: 500px;
+    left: 0;
+    right: 0;
+    
+}
+.proto-head{
+    font-size: 50px;
+}
+.proto-head span{
+    color: #f35444;
+}
+
+.input1 input{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #000;
+    border:2px solid gray;
+    color: #f35444;
+    margin-top: 1rem;
+}
+
+.sub-btn{
+    background: transparent;
+    border: 2px #f35444 solid;
+    padding: 10px 50px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 4rem;
+    transition: all .3s ease;
+}
+.sub-btn:hover{
+    background: #f35444;
+    color: aliceblue;
+}
+
+@media (max-width:1000px) {
+    .prototype-right{
+        width: 100% ;
+        padding: 1rem;
+    }
+    .prototype-left{
+        width: 100%;
+        height: auto;
+    }
+    .prototype-left iframe{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        left: 0;
+        right: 0;
+        
+    }
+}

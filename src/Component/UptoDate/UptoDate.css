@@ -1,0 +1,94 @@
+.uptodate{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.uptoContainer{
+    height: auto;
+    background: url('https://demo26.atiframe.com/wp-content/uploads/2020/03/For-BG-02-1.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    width: 100%;
+    margin-top: 8rem;
+
+}
+.uptodate-cont{
+    color: white;
+}
+.uptodate-cont h1 span{
+    color: #f35444;
+}
+.uptodate h1 span{
+    color: #f35444;
+}
+.joining{
+    margin-top: 1.2rem;
+}
+#form2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+#go{
+    width: 28%;
+    outline: none;
+    border: 2px solid #f35444;
+    padding: .4rem;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+}
+
+.go-btn{
+    padding: .4rem 2rem;
+    border: 2px solid #f35444;
+    background: transparent;
+    border-radius: 30px;
+    color: white;
+
+}
+
+@media (max-width:1000px) {
+    .uptoContainer{
+        height: auto;
+        background: url('https://demo26.atiframe.com/wp-content/uploads/2020/03/For-BG-02-1.jpg') no-repeat;
+        background-size: cover;
+        padding: 5rem;
+        width: 100%;
+    
+    }
+    #form2{
+        flex-direction: column;
+    }
+    #go{
+        width: 80%;
+        }
+        .go-btn{
+            width: 50%;
+        
+        }
+}
+
+@media (max-width:400px) {
+    #go{
+        width: 95%;
+        }
+        .go-btn{
+            width: 80%;
+        
+        }
+}

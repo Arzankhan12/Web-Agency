@@ -50,3 +50,27 @@
 
 
 }
+@media (max-width:580px) {
+    .footer-media-set{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-cont{
+        text-align: center;
+    }
+    .f-input{
+        width: 100%;
+    }
+    .f-btn{
+        width: 100%;
+    }
+}
+
+@media (max-width:426px) {
+    .text-cont{
+        text-align: center; 
+    }
+}

@@ -9,7 +9,7 @@ const Header = () => {
 
         <div className="wrapper">
 
-        <div className="content">
+        <div className="content ">
       <img src="https://demo26.atiframe.com/wp-content/uploads/2020/02/Rectangle-7.png" alt="" />
 
       <h1 className='heading text-light'>A Website that <br /> <span>Leads to Customers</span></h1>
@@ -25,7 +25,7 @@ const Header = () => {
 
       </div>
 
-      <div className="images">
+      <div className="images slide-right ">
         <img src="https://demo26.atiframe.com/wp-content/uploads/revslider/slider-940px-11/Frame1.png " alt="" />
       </div>
 

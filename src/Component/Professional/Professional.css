@@ -110,3 +110,15 @@
     }
     
 }
+
+@media (max-width:380px) {
+    .scroll-animation {
+        position: relative;
+        height:220vh; /* Adjust this height as needed */
+
+    }
+    .profes-icon{
+        flex-direction: column;
+    }
+    
+}

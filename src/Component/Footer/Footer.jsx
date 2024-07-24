@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-dark text-light py-5 footer">
       <Container>
         <Row>
-          <Col md={4}>
+          <Col md={4} className='footer-media-set'>
             <h4 className='fw-bold'>About</h4>
             <p className='f-para mt-5 '>We have much planned for the future, <br /> working with great clients and continued <br /> software development</p>
             <ul className='ul'>
@@ -22,17 +22,20 @@ const Footer = () => {
                 </li>
             </ul>
           </Col>
-          <Col md={4}>
+          <Col md={4} className='footer-media-set'>
+
             <h4 className='fw-bold mb-5'>Recent News</h4>
+
             <p className='f-para '>April 12, 2020</p>
-              <li className='li text-cont'>
+              <li className='li text-cont'> {/*responsive sudhaarna he*/}
               Easy Ways to Incorporate Customer <br /> Feedback</li>
+
               <p className='f-para mt-3'>January 31, 2020</p>
-              <li className='li text-cont'>
+              <li className='li text-cont' > {/*responsive sudhaarna he*/}
               How to create a website for your <br /> business?</li>
             
           </Col>
-          <Col md={4}>
+          <Col md={4} className='footer-media-set'>
             <h4 className='fw-bold mb-5'>Newsletter</h4>
             <p className='f-para'>Join our mailing list to receive news and <br /> announcements</p>
             <Form>

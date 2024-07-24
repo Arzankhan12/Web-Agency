@@ -23,7 +23,7 @@
   }
   
   .swiper-slide img {
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -36,20 +36,13 @@
     width: 100%;
   }
   .swipe{
-    width: 40%;
+    width: 100%;
     position: relative;
 }
-.swipe-swipe{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-    color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.9);
-    display: none;
+.swipe-swiper{
+  width: 100%;
+  height: auto;
 }
-
 .swipe:hover{
     .swipe-swipe{
         transition: all .3s ease-in-out;
